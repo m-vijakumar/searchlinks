@@ -1,0 +1,22 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/search_links"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "author": "vijay",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
+}
