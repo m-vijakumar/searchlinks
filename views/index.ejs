@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>SearchLinks</title>
+  
+    </head>
+    <body style="background-color:snow">
+<h1><font size="24">Some Popular WebSites</font></h1><br>
+<style>
+t.pos_fixed{
+position: fixed;
+top: 150px;
+right: 100px;
+left: 100px;
+}
+</style>
+
+<table class="pos_fixed">
+<tr><td  style="text-decoration-style: none"><h3><a href="<%= typeof google=='undefined'? '' : google  %>"  target="_blank"><img class="pos_fixed" src=" google.jpg" style="width:60px;height:60px;text-decoration:none;" />&nbsp;&nbsp;<font class="pos_fixed" size="7px" >Google</font></h3></a></td></th> 
+<tr><td><h3><a href="<%= typeof bing=='undefined'? '' : bing  %>" target="_blank"><img class="pos_fixed" src="bing.png" style="width:60px;height:60px;"/>&nbsp;&nbsp;<font size="7px" style="text-decoration:none" >bing</font></h3></a></td></th>
+<tr><td><h3><a href="<%= typeof wiki=='undefined'? '' : wiki  %>" target="_blank"><img class="pos_fixed" src=" wikipedia.png" style="width:60px;height:60px;"/>&nbsp;&nbsp;<font size="7px" style="text-decoration:none">Wikipedia</font></h3></a></td></th>
+<tr><td><h3><a href="<%= typeof youtube=='undefined'? '' : youtube  %>" target="_blank"><img src=" youtube.jpeg" style="width:60px;height:60px;"/>&nbsp;&nbsp;<font size="7px" style="text-decoration:none" >youtube</font></h3></a></td></th>
+<tr><td><h3><a href="<%= typeof yahoo=='undefined'? '' : yahoo  %>" target="_blank"><img src=" yahoo.jpg" style="width:60px;height:60px;"/>&nbsp;&nbsp;<font size="7px" style="text-decoration:none">yahoo</font></h3></a></td></th></tr>
+<tr><td><h3><a href="<%= typeof duckduckgo=='undefined'? '' : duckduckgo  %>" target="_blank"><img src=" duckduckgo.png" style="width:60px;height:60px;"/>&nbsp;&nbsp;<font size="7px" style="text-decoration:none">DuckDuckGo</font></h3></a></td></th>
+</table>
+
+</body>
+</html>
