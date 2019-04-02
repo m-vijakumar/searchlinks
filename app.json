@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 {
   "name": "Start on Heroku: Node.js",
   "description": "A barebones Node.js app using Express 4",
   "repository": "https://github.com/heroku/node-js-getting-started",
   "keywords": ["node", "express", "heroku"]
 }
+=======
+{
+  "name": "Start on Heroku: Node.js",
+  "description": "A barebones Node.js app using Express 4",
+  "repository": "https://github.com/heroku/node-js-getting-started",
+  "keywords": ["node", "express", "heroku"],
+}
+>>>>>>> 40c4024bc3a451d57c36f796c659ebb1a8ec7d3c
